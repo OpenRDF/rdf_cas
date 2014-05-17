@@ -48,7 +48,8 @@ public class QueryDatabaseAuthenticationHandler extends AbstractJdbcUsernamePass
             password);
         
         try {
-            final String dbPassword = getJdbcTemplate().queryForObject(this.sql, String.class, username);
+            @SuppressWarnings("deprecation")
+			final String dbPassword = getJdbcTemplate().queryForObject(this.sql, String.class, username);
             return dbPassword.equals(encryptedPassword);
         } catch (final IncorrectResultSizeDataAccessException e) {
             // this means the username was not found.

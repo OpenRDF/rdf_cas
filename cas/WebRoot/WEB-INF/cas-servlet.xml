@@ -205,7 +205,7 @@
         p:warnCookieGenerator-ref="warnCookieGenerator"
         p:ticketGrantingTicketCookieGenerator-ref="ticketGrantingTicketCookieGenerator"
         p:servicesManager-ref="servicesManager"
-        p:followServiceRedirects="${cas.logout.followServiceRedirects:false}"/>
+        p:followServiceRedirects="${cas.logout.followServiceRedirects:true}"/>
 
   <bean id="healthCheckController" class="org.jasig.cas.web.HealthCheckController"
         p:healthCheckMonitor-ref="healthCheckMonitor"/>
