@@ -16,6 +16,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	    <base href="<%=basePath%>">
 	    <title>知识库系统 -- 中央认证</title>
         <link type="text/css" rel="stylesheet" href="<%=basePath%>css/cas_rdf.css" />
+        <link type="text/css" rel="stylesheet" href="<%=basePath%>css/main.css" media="screen" charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	    <link rel="icon" href="<%=basePath%>favicon.ico" type="image/x-icon" />
 	</head>
@@ -26,7 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<div class="head-inner-left">
 					<ul>
 						<li class="logo">
-							<a href="${RDF_FRONTS_HREF}" style="display: block; height: 50px; width: 200px; padding-top: 25px;">
+							<a href="${rdf_fronts_href}/cas" style="display: block; height: 50px; width: 200px; padding-top: 25px;">
 								<img src="<%=basePath%>images_rdf/logo_reg.png" alt="logo"/>
 							</a>
 						</li>

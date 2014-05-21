@@ -20,10 +20,10 @@
 --%>
 <jsp:directive.include file="includes/top.jsp" />
 
-		<div id="msg" class="success">
-			<h2><spring:message code="screen.logout.header" /></h2>
+		<div id="msg" class="success" style="height: 200px;">
+			<h2 style="color: #390; padding-left: 150px;"><spring:message code="screen.logout.header" /></h2>
 
-			<p><spring:message code="screen.logout.success" /></p>
-			<p><spring:message code="screen.logout.security" /></p>
+			<p style="color: #390; padding-left: 150px;"><spring:message code="screen.logout.success" /></p>
+			<p style="color: #390; padding-left: 150px;"><spring:message code="screen.logout.security" /></p>
 		</div>
 <jsp:directive.include file="includes/bottom.jsp" />
