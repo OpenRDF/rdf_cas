@@ -46,7 +46,7 @@
 					</ul>
 				</div>
 				</p>
-				<p id="password" class="pass-form-item pass-form-item-password" style="display:">
+				<p id="password" class="pass-form-item pass-form-item-password" style="display:none">
 					<label class="pass-label pass-label-password">验证码</label> <input id="password" type="password" name="password" class="pass-text-input pass-text-input-password" autocomplete="off"
 						placeholder="验证码"> <span id="password_clearbtn" class="pass-clearbtn pass-clearbtn-password" style="display:none;"></span> <span id="passwordError"
 						class="pass-item-error pass-item-error-password" style="display: none;"></span> <span class="pwd-strength-detail" style="display: none;">验证码</span> <span id="passwordSucc"
